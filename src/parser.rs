@@ -6,6 +6,7 @@ pub enum ParseResult<T> {
     Partial,
     Error,
 
+    
 }
 
 impl<T> ParseResult<T> {
